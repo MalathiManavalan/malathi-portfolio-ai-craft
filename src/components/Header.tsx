@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Linkedin, Mail, MapPin, Phone } from 'lucide-react';
 
@@ -8,8 +7,12 @@ const Header = () => {
       <div className="absolute inset-0 bg-black/20"></div>
       <div className="relative container mx-auto px-6 py-16 md:py-24">
         <div className="text-center space-y-6">
-          <div className="w-32 h-32 mx-auto bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/30">
-            <span className="text-4xl font-bold">M</span>
+          <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-white/30 backdrop-blur-sm">
+            <img 
+              src="/lovable-uploads/ab446ce3-1918-4e81-9807-8d61820fa484.png" 
+              alt="Malathi M"
+              className="w-full h-full object-cover"
+            />
           </div>
           
           <div className="space-y-2">
